@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import { DisplayForm } from "./DisplayForm";
 
 export function Signup(){
 
@@ -25,7 +26,13 @@ export function Signup(){
                 <input placeholder="password" type="password" name="password" /> <br />
                 <button type="submit">Signup</button>
             </form>
+        {
+            username && email &&
+            <DisplayForm username={ username } email={ email } mobile={ mobile } password={ password } />
 
+        }
+
+{/* 
             {
                 username && 
                 <>
@@ -41,7 +48,7 @@ export function Signup(){
                     <br></br>
                     The Given password is { password }
                 </>              
-            }
+            } */}
         </>
     )
 }

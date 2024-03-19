@@ -15,6 +15,9 @@ function App() {
 
   return (
     <div className="App">
+
+
+
       {/* <h1>A Simple Chat App</h1>
       Select your room to chat 
       <select onChange={ 
@@ -24,8 +27,10 @@ function App() {
         <option value="music">Music</option>
         <option value="cinema">Cinema</option>
       </select>
-    <br></br>
-    <ChatRoom chatId={roomId} /> */}
+    <br></br> */}
+    {/* <ChatRoom chatId={roomId} /> */}
+
+
       <Signup />
     </div> 
   );
