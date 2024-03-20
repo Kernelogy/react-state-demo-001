@@ -3,6 +3,9 @@ import './App.css';
 import { useState } from 'react';
 import { ChatRoom } from './ChatRoom';
 import { Signup } from './Signup'
+import { Signup2 } from './Signup2';
+import { Signup3 } from './Signup3';
+import { Effect1 } from './Effect1';
 
 
 function App() {
@@ -29,9 +32,8 @@ function App() {
       </select>
     <br></br> */}
     {/* <ChatRoom chatId={roomId} /> */}
-
-
-      <Signup />
+      {/* <Signup3 /> */}
+      <Effect1 ></Effect1>
     </div> 
   );
 }
